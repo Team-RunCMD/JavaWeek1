@@ -77,4 +77,6 @@ Intro to Git (clone, init, add, commit, push, pull)
 Count the amount of words in a file..
 Count the amount of sentences in a file..
 Ceasar cipher - shift all letters n amount of letters forwards or backwards..
+
+katacoda.com - for git and linux VM commands practice
 */
