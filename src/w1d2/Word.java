@@ -1,3 +1,5 @@
+package w1d2;
+
 public class Word {
 //    think of objects as a custom type..
 //    objects are an instance of a class..
@@ -16,12 +18,15 @@ public class Word {
 //        do something here.. (usually instantiate variables)
     }
     public Word(char[] charArray, int length){
-        this.charArray = charArray;
+        char[] copiedArray = new char[length];
+        for(int i = 0; i < length; i++){
+            copiedArray[i] = charArray[i];
+        }
+        this.charArray = copiedArray;
         this.length = length;
     }
     public Word(char[] charArray){
-        this.charArray = charArray;
-        this.length = charArray.length;
+        this(charArray, charArray.length);
     }
 
     public String toString(){

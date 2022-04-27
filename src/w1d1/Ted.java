@@ -1,3 +1,7 @@
+package w1d1;
+
+import w1d2.Word;
+
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -6,7 +10,6 @@ import java.io.IOException;
 public class Ted {
 	
 	public static void main(String[] args) throws IOException, InterruptedException{
-
 		//object.. you can think of an object as a custom type
 		//objects have their own independent information (states) and behavior
 		//File: is the type of the object
