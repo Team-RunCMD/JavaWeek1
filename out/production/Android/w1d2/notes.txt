@@ -9,7 +9,8 @@ File I/O
 Exceptions
 Control flow (while, if)
 Primitive types / first objects
-Intro to Git (clone, init, add, commit, push, pull)
+Intro to Git (clone, init, add, commit, push, pull, branch, merge, checkout)
+Basic unix commands (cd, mkdir, ls/dir, cp/copy, echo/touch)
 
 katakoda.com (good for getting better at unix / git commands)
 
@@ -20,12 +21,36 @@ Memory (pass-by-reference)
 Arrays
 Control flow (for loops, do while)
 Access modifiers (like public, private, default, protected)
-Packages
+    public = entire project. private = declared within class only. default = package only. protected = subclasses only
+Packages / imports
 Try/catch
+Runtime exceptions vs exception / unchecked vs checked exception
 Method return types
 Static keyword
+"one instance" -> the method or variable or object belongs to the class definition rather than an object instance
 Constructors
+method invoked when we use new keyword to create object - make your own constructor or use default constructor
 'this' keyword
+for resolving ambiguity mostly
+
+4/28
+The collection framework
+    ArrayList, LinkedList, Queue, Stack, etc
+    Basic interfaces of collections - like List, Set, Map, etc
+Generics
+    Generics allow you to store data of any type - specifically, we can designate a object that uses generics
+    to be something like a Object<Type> - something like <T> is a stand-in for any type of object
+Garbage Collection
+    If nothing is pointing to an object, it's automatically removed from memory
+Scanner input from user
+Wrapper classes
+    autoboxing/autounboxing allows us to conver wrapper classes to primitives and vice versa automatically
+Scope
+    for example, if using a for loop, and use int i  =0, that i is limited to the scope of the for loop
+    jurisdiction over a variable
+    lifespan of datatype
+    in java specifically: block (loops, if), method (within a method), object scope (within an object), class (static)
+
 
 my recommendation: know 'what' something is and 'why' we use it
 

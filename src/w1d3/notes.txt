@@ -1,0 +1,14 @@
+removing first element of linked list: O(1) constant time - meaning, the time it takes to remove the first element
+does not change depending on the length of linkedlist
+removing first element from array list: O(n) constant - the time it takes scales proportionally to the length
+of array list (because we need to shift all elements leftwards one step
+
+for today:
+linkedlist add at index, linked list contains, linked list .equals(another linked list)
+contains returns true/false if the LL contains a certain value
+    caveat: using == on objects doesn't work!
+    why?
+        == actually just compares memory references with objects...
+        you have to implement .equals in whatever object you're comparing..
+        luckily, beacue the original object class contains .equals, even generics can use it
+            even when generics usually can't use object specific methods (unless you're using interfaces)

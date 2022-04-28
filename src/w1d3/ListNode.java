@@ -2,20 +2,21 @@ package w1d3;
 
 import w1d2.Word;
 
-public class ListNode {
+public class ListNode<T> {
 
-    private Word data;
+    private T data;
     private ListNode next;
 
-    public ListNode(Word data){
+
+    public ListNode(T data){
         this.data = data;
     }
 
-    public Word getData() {
+    public T getData() {
         return data;
     }
 
-    public void setData(Word data) {
+    public void setData(T data) {
         this.data = data;
     }
 

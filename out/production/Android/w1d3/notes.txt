@@ -1,0 +1,12 @@
+4/28
+The collection framework
+    ArrayList, LinkedList, Queue, Stack, etc
+Generics
+Garbage Collection
+Scanner input from user
+
+removing first element of linked list: O(1) constant time - meaning, the time it takes to remove the first element
+does not change depending on the length of linkedlist
+removing first element from array list: O(n) constant - the time it takes scales proportionally to the length
+of array list (because we need to shift all elements leftwards one step
+
