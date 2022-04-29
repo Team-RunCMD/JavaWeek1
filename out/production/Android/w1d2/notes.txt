@@ -32,6 +32,9 @@ Constructors
 method invoked when we use new keyword to create object - make your own constructor or use default constructor
 'this' keyword
 for resolving ambiguity mostly
+Strings
+    Strings and their methods
+    charAt, indexOf, substring, contains.. these are all useful string methods
 
 4/28
 The collection framework
@@ -40,8 +43,28 @@ The collection framework
 Generics
     Generics allow you to store data of any type - specifically, we can designate a object that uses generics
     to be something like a Object<Type> - something like <T> is a stand-in for any type of object
+Object class
+    All objects in java are descended from the object class, which contains some amount of useful methods that
+    we most likely overwrite
+        toString,
+        hashcode,
+        equals
 Garbage Collection
     If nothing is pointing to an object, it's automatically removed from memory
+Memory in java
+    memory in java works through the stack and the head..
+        stack: primitive types, as well as the call stack (java keep track of all method calls so that way it knows
+            where to return when a method is finished)
+        heap: where object memory is stored.. as well as the 'string pool'
+        string pool:
+            i mentioned that strings are special types of objects..
+            even though they are technically objects, we use them so often that they have a special memory location
+            in which identical strings share the same memory space
+                so..
+                String a = "truck";
+                String b = "truck";
+                actually point to the same memory location
+                THIS IS NOT TRUE FOR ANY OTHER TYPE OF OBJECT!
 Scanner input from user
 Wrapper classes
     autoboxing/autounboxing allows us to conver wrapper classes to primitives and vice versa automatically

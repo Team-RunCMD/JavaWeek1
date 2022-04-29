@@ -1,0 +1,25 @@
+why use a set?
+when we need to keep track of distinct elements..
+either we don't care about duplicate elements or we want to avoid duplicates
+
+hashset vs treeset..
+treeset is ordered and is o(log(n)) for inserting
+hashset is unordered and is o(1) for inserting
+refreshing on o(n) time: how does the problem scale vs the size of the problem?
+so..
+hashset is used if we just just want to store unique things
+treeset when we want to keep those unique things in order
+(similar for hashmap vs treemap, except that they're maps (key/value pairs))
+
+arraylist vs linkedlist?
+arraylist is good at adding things to the end, as well as retrieving items.. o(1)
+linkedlist is good at removing items and manipulating the order..
+consider that arraylist removals require us to reorder all of the other elements
+but that linkedlist requires us to traver the whole list to get to the last element
+
+queues and stacks are just situational based on their use
+queue: FIFO (like being in line at a store)
+stack: LIFO (like a stack of plates)
+
+arraydeque is swiss army knife queue that allows add/remove from both ends of the deqeue
+priorityqueue allows us to assign priorities to things that should be removed

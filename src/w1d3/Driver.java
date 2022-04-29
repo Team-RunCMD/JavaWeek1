@@ -1,6 +1,7 @@
 package w1d3;
 
 import w1d2.Word;
+import w1d4.TedsListImproved;
 
 import java.util.Scanner;
 
@@ -8,6 +9,9 @@ public class Driver {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
+
+        TedsListImproved<String> list2 = new TedsListImproved<>();
+        list2.addToFront("example string");
 
         TedsList<String> list = new TedsList<String>();
         boolean running = true;
